@@ -12,5 +12,9 @@
 			]
 		}
 	},
-	"postCreateCommand": "npm install -g @devcontainers/cli"
+	"postCreateCommand": "npm install -g @devcontainers/cli",
+	"runArgs": [
+		"--name",
+		"devcontainer-templates"
+	]
 }
